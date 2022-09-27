@@ -1,5 +1,7 @@
 import { render, screen, cleanup } from "@testing-library/react";
 import "@testing-library/jest-dom";
+import "@babel/preset-react"
+import "@babel/plugin-syntax-jsx"
 
 import App from "./index";
 
